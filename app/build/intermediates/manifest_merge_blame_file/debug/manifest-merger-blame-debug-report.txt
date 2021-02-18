@@ -26,7 +26,7 @@
 24-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml
 25
 26    <application
-26-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:20:5-36:19
+26-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:20:5-37:19
 27        android:allowBackup="true"
 27-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:21:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,23 +42,26 @@
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme" >
 35-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:25:9-40
-36        <activity android:name="com.android.example.wordlistsql.MainActivity" >
-36-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:9-33:20
-36-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:19-47
-37            <intent-filter>
-37-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:17-69
-38-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:17-77
-40-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:27-74
-41            </intent-filter>
-42        </activity>
-43        <activity android:name="com.android.example.wordlistsql.EditWordActivity" />
-43-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:9-63
-43-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:19-51
-44    </application>
-45
-46</manifest>
+36        <activity android:name="com.android.example.wordlistsql.SearchWordActivity" />
+36-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:9-55
+36-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:19-53
+37        <activity android:name="com.android.example.wordlistsql.MainActivity" >
+37-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:27:9-34:20
+37-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:27:19-47
+38            <intent-filter>
+38-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:29:17-69
+39-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:31:17-77
+41-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.android.example.wordlistsql.EditWordActivity" />
+44-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:35:9-63
+44-->D:\Android Studio\WordListSql-Starter\app\src\main\AndroidManifest.xml:35:19-51
+45    </application>
+46
+47</manifest>

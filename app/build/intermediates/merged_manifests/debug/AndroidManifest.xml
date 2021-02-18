@@ -33,6 +33,7 @@ limitations under the License.
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.android.example.wordlistsql.SearchWordActivity" />
         <activity android:name="com.android.example.wordlistsql.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

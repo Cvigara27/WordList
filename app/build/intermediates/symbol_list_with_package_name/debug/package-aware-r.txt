@@ -1106,8 +1106,11 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_result
+id search_show
 id search_src_text
 id search_voice_btn
+id search_word
 id select_dialog_listview
 id selected
 id shortcut
@@ -1233,6 +1236,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout search_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
